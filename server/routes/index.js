@@ -7,7 +7,7 @@ router.post("/stocks", (req, res) => {
     product_id: req.body.product_id,
     name: req.body.name,
     stock: req.body.stock,
-    created_date,
+    created_date:Date.now(),
   });
 
   newProduct
